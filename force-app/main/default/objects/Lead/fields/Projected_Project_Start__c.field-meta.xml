@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projected_Project_Start__c</fullName>
+    <description>created this field to convey the likely timing of the need for consulting services</description>
+    <externalId>false</externalId>
+    <label>Projected Project Start</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0-1 Month</fullName>
+                <default>false</default>
+                <label>0-1 Month</label>
+            </value>
+            <value>
+                <fullName>1-3 Months</fullName>
+                <default>false</default>
+                <label>1-3 Months</label>
+            </value>
+            <value>
+                <fullName>3-6 Month</fullName>
+                <default>false</default>
+                <label>3-6 Month</label>
+            </value>
+            <value>
+                <fullName>6-12 Months</fullName>
+                <default>false</default>
+                <label>6-12 Months</label>
+            </value>
+            <value>
+                <fullName>12-24 Months</fullName>
+                <default>false</default>
+                <label>12-24 Months</label>
+            </value>
+            <value>
+                <fullName>24+ Months</fullName>
+                <default>false</default>
+                <label>24+ Months</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
